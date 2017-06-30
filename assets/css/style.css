@@ -1,0 +1,267 @@
+body{
+	 background-image:url("e9f4ef84.png");
+	  font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+#topnav{
+	height:90px;
+}
+
+.nametop {
+	background-color:#4aaaa5; 
+	font-size:30px; 
+	height: 96px;
+    width: 275px;
+    position: absolute;
+    top: -25px;
+    left: 160px;
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+    font-weight: 700;
+    z-index:99;
+}
+
+
+#topnavlink {
+	float:right; 
+	font-size:18px; 
+	margin-top: 20px; 
+	margin-right: 150px;
+	color:#999;
+}
+
+#navbox {
+	margin-bottom: 50px;
+}
+
+li {
+	color:#999;
+}
+
+#profileimg{
+	margin-bottom: 20px;
+	height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+p{
+	font-size:18px;
+	text-align: left;
+	color:#777;
+}
+
+h2 {
+	font-size: 10px;
+	color:#ccc;
+	padding-bottom: 20px;
+}
+
+#aboutpanel {
+	 padding:35px; 	 
+}
+
+#abouthead {
+	color:#4aaaa5;
+	font-size:30px; 
+	text-align: left;
+	border-bottom: solid #dddddd;
+	margin-bottom:20px;
+	font-weight: 700;
+}
+
+.aboutbox{
+    height:100%;
+ 	width:100%;
+ 	padding:0px;
+ 	text-align:center;
+}
+
+/*---footer--*/
+
+
+#navbar-text{
+	color:white;
+}
+
+#bottomnav {
+	 background-color: #666;
+	 border-top: solid 5px #4aaaa5;
+	 text-align: center;
+	 padding-top: 5px;
+	 line-height: 35px;
+}
+
+/*--connect with me--*/
+#connectbox {
+	
+	float:left;
+}
+
+#connecttop {
+	background-color: white; 
+	color:#4aaaa5; 
+	font-size: 22px; 
+	text-align:center;
+	font-weight: 700;
+}
+
+#linked {
+	float:left;
+}
+
+#git {
+	float:left;
+}
+
+#gitimg, #stackimg, #linkedimg {
+	height:48px;
+}
+
+.panel {
+	padding:20px;
+}
+
+#contacthead{
+	color:#4aaaa5; 
+	font-size: 30px; 
+	text-align: left;
+	border-bottom: solid #dddddd;
+	margin-bottom:20px;
+	padding:20px;
+	font-weight: 700;
+}
+
+
+.well {
+	padding:35px;
+  background-color:#fff;
+}
+
+.inputheads {
+	text-align: left;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color:#777;
+}
+.inputbar {
+	width: 95%;
+    margin-left: 15px;
+}
+
+#submitbtn {
+	background-color:#4aaaa5; 
+	border:none;
+}
+
+/*portfolio*/
+
+
+#portpanel {
+	 padding:35px; 	 
+	 overflow: hidden;
+}
+
+#porthead {
+	color:#4aaaa5;
+	font-size:30px; 
+	text-align: left;
+	font-weight: 700;
+}
+
+ .box {
+ 	height:200px;
+ 	width:270px;
+ 	float: left;
+ 	padding:0px;
+ 	margin:10px;
+ 	margin-top: 20px;
+
+ }
+
+ #inner {
+ 	height:25%;
+ 	width:100%;
+ 	background-color: #4aaaa5;
+ 	color:white;
+ 	font-family: 'Georgia', "Times", "Times New Roman", "serif";
+ 	font-size: 20px;
+ 	text-align:center; 
+ 	line-height: 192%;
+ 	position: relative;
+ 	top:70%;
+ }
+
+ #porttimg {
+ 	height:100%;
+ 	width:100%;
+ }
+
+ .portbox{
+ 	height:100%;
+ 	width:100%;
+ 	padding:0px;
+ 	border-top: solid #dddddd;
+ 	text-align:center;
+}
+
+
+
+
+/*--LARGE screen--*/
+@media screen and (max-width:1200px) {
+
+  body {
+    background-color: red;
+  }
+  .container {
+    width:100%;
+  }
+}
+
+/*-medium screen-*/
+
+@media screen and (max-width:760px) {
+     
+    #topnavlink {
+  	margin: 0;
+    float:right;
+    text-align:center; 
+  }
+
+  #topnav {
+	width:100%;
+  }
+
+
+.nametop {
+  left: 0px;
+  width: 70%;
+  height: 125px;
+  line-height: 165%;
+  margin-left: 15px;
+   }
+
+}
+
+
+
+/*--small screen--*/
+
+@media screen and (max-width:640px) {
+
+.nametop {
+  left: 0px;
+  width: 50%;
+  height: 125px;
+  line-height: 165%;
+  margin-left:15px;
+  
+   }
+
+}
+
+
+
+
